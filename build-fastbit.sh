@@ -9,7 +9,7 @@ pushd FastBit
 # a device. The crashing change is totally benign (adds one more method to table.h), but 
 # seems to exceed some limitation of clang or the library structure (or something else)
 # when targeting the arm arch.
-git checkout e9922e3ebabee8dcf67162d356cbaa13b13a864f
+git checkout HEAD 
 
 # creates the fastbit-config.h file
 ./configure
